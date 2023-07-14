@@ -1,7 +1,5 @@
 //complete this code
 class Person {
-	name;
-	age;
 	constructor(name,age){
 		this.name=name;
 		this.age=age;
@@ -19,13 +17,13 @@ class Person {
 
 class Student extends Person {
 	study(){
-		console.log(this.name + ' is studing');
+		console.log('${this.name} is studying');
 	}
 }
 
 class Teacher extends Person {
 	teach(){
-		console.log(this.name +' is teaching');
+		console.log('${this.name} is teaching');
 	}
 }
 
